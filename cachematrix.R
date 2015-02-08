@@ -7,8 +7,9 @@
 # How to use it. Example:
 # Remember, to inverse a matrix, we need a squared matrix
 # > m <- matrix(1:4, 2,2) 
-# > cacheSolve(makeCacheMatrix(m)) # first time message
-# > cacheSolve(makeCacheMatrix(m)) # cached message
+# > mcm <- makeCacheMatrix(m)
+# > cacheSolve(mcm) # first time message
+# > cacheSolve(mcm) # cached message
 
 
 ## This function creates a special "matrix" object
